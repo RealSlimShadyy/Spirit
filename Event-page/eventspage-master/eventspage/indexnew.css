@@ -309,11 +309,15 @@ body{
     font-size: 3px;
 }
 
-.learn > h3 {
+.learn h3 {
     font-family: fontSatoshi;
     font-weight: 500;
     color: #3E2174;
     font-size: 3px;
+}
+
+.learn h3:hover {
+    text-decoration: underline;
 }
 
 .card1 p{
