@@ -835,7 +835,7 @@ span{
 
 @media (max-width: 768px) {
   .header{
-    height: 69px;
+    height: 80px;
   }
   .hamburger {
     display: flex;
@@ -843,6 +843,7 @@ span{
   #hlinks{
     height:250px;
     margin-top: 11px;
+   z-index: 5;
   }
   #hlinks li{
     height:30px;
@@ -944,7 +945,7 @@ span{
 }
 @media (max-width:420px) {
   .footer{
-    height: 400px;
+    height: 550px;
   }
   #foot_1{
     height: 170px;
