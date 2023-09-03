@@ -30,7 +30,7 @@ body{
 }
 /* CSS of header */
 
-.header{
+.header1{
     background-color: #141414;
     /* color: #CFFF69; */
     border-bottom: #CFFF69 solid 1px;
@@ -109,7 +109,7 @@ body{
 
 
 /* CSS of Events page */
-.header2{
+.header.two{
     height: 9vh;
     border: none;
     display: flex;
@@ -122,9 +122,8 @@ body{
     font-weight: 600;
 }
 @media screen and (max-width: 980px) {
-    .header2{
-        height: 8vh;
-        font-size: 22px;
+    .header.two{
+        height: 4vh;
     }
 }
 .sports{
@@ -229,7 +228,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 2vw;
 }
 
 .card1 {
@@ -311,14 +309,11 @@ body{
     font-size: 3px;
 }
 
-.learn > a {
+.learn > h3 {
     font-family: fontSatoshi;
     font-weight: 500;
     color: #3E2174;
     font-size: 3px;
-}
-.learn > a:hover {
-    text-decoration: underline;
 }
 
 .card1 p{
@@ -402,7 +397,7 @@ margin-left: 2vw;
 }
 
 .scoreboard{
-    margin-top: 6vh;
+    margin-top: 12vh;
 }
 
 @media screen and (max-width: 1260px){
@@ -496,316 +491,12 @@ margin-left: 2vw;
         .hlinks li {
             font-size: 14px;
         }
-        .header2{
-            font-size: 20px;
+        .header.two{
+            font-size: 17px;
         }
         .bars a{
             padding: 1rem;
         }
     }
 
-/* Linking Landing page's CSS */
-
-
-/*prem*/
-* {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    box-sizing: border-box;
-  }
-  .header {
-    background-color: #141414;
-    border-bottom: #cfff69 solid 1px;
-    display: flex;
-    justify-content: space-between;
-    height: 7.75vw;
-    padding-top: 1.2vw;
-    z-index: 2;
-    width: 100%;
-  }
   
-  .year {
-    display: flex;
-    width: 45vw;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .year h1 {
-    font-size: 50px;
-    font-style: italic;
-    font-weight: 700;
-  }
-  .year span {
-    font-size: 48px;
-    font-style: italic;
-    font-weight: 400;
-  }
-  .hlinks {
-    display: flex;
-    width: 60vw;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    gap: 0 px;
-    margin-right: 5vw;
-  }
-  .hlinks li {
-    list-style-type: none;
-    color: #cfff69;
-    font-size: 1.5vw;
-    font-style: italic;
-    font-weight: 400;
-    width: auto;
-  }
-  .hlinks a {
-    text-decoration: none;
-    color: #cfff69;
-  }
-  .but {
-    background-color: #cfff69;
-    font-size: 1.5vw;
-    font-style: italic;
-    font-weight: 400;
-    font-family: "Times New Roman", Times, serif;
-    width: 10vw;
-    padding: 5px 0;
-  }
-  
-  .blank {
-    height: 800px;
-    background-color: #141414;
-  }
-  
-  /* header ends */
-  
-  .footer {
-    background-color: #cfff69;
-    height: 410px;
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-  }
-  #foot_1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .apps img {
-    margin: 0 15px;
-  }
-  .qlinks {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    font-style: italic;
-    padding-bottom: 22px;
-  }
-  .qlinks label {
-    font-size: 19px;
-    font-weight: 100;
-  }
-  .qlinks .ql li {
-    list-style-type: none;
-    font-size: 22px;
-    font-weight: 700;
-    padding: 5px 0;
-  }
-  .ql a {
-    text-decoration: none;
-    color: #000000;
-  }
-  .con {
-    padding: 51px 0;
-    font-size: 19px;
-    font-style: italic;
-  }
-  .con a {
-    text-decoration: none;
-    color: #000000;
-  }
-  @media screen and (min-width: 1300px) {
-    .hlinks li {
-      font-size: 20px;
-    }
-    .but {
-      font-size: 20px;
-    }
-  }
-  /* Your existing CSS code here */
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #141414;
-    color: #fff;
-    width: 50vw;
-  }
-  
-  .hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-  }
-  
-  .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 3px 0;
-  }
-  
-  .hlinks {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .hlinks li a {
-    text-decoration: none;
-    /*color: #fff;*/
-  }
-  
-  @media (max-width: 768px) {
-    .header{
-      height: 69px;
-    }
-    .hamburger {
-      display: flex;
-    }
-    #hlinks{
-      height:250px;
-      margin-top: 11px;
-    }
-    #hlinks li{
-      height:30px;
-      font-size:15px;
-    }
-    
-    .hlinks {
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      position: absolute;
-      background-color: #333;
-      width: 100%;
-      top: 60px;
-      left: 0;
-      padding: 20px 0;
-      transition: transform 0.3s ease-in-out;
-      transform: translateY(-100%);
-    }
-  
-    .hlinks.active {
-      display: flex;
-      transform: translateY(0);
-    }
-    .navbar{
-      width: 40px;
-    }
-  }
-  @media (max-width:830px) {
-    .footer{
-      padding: 50px 10px;
-    }
-    .con{
-      font-size: 2vw;
-      padding-right: 10px;
-    }
-    .qlinks h1{
-      font-size: 4.5vw;
-      padding-right: 20px;
-    }
-    .qlinks a{
-      font-size: 2.5vw;
-    }
-    .frame_spir{
-      width: 35vw;
-    }
-    #foot_1{
-      justify-content: space-evenly;
-    }
-    .Copyright{
-      padding-right: 30px;
-      font-size: 2vw;
-    }
-  
-  }
-  @media (max-width:470px) {
-    .year{
-      width: 60vw;
-    }
-  }
-  @media (max-width:670px) {
-    .footer{
-      height: 60vw;
-    }
-    .con{
-      padding-top: 5vw;
-    }
-  }
-  @media (max-width:560px) {
-    .footer{
-      flex-direction: column;
-      height: 95vw;
-      padding: 20px 30px;
-    }
-    .con{
-      padding: 10px 0;
-    }
-    #foot_1{
-      height: 40vw;
-      justify-content: space-between;
-    }
-    .qlinks{
-      padding-bottom: 0;
-    }
-    .frame_spir {
-      width: 40vw;
-    }
-    .Copyright {
-      padding-right: 30px;
-      font-size: 2.25vw;
-    }
-    .apps img{
-      height: 22px;
-    }
-    .qlinks h1 {
-      font-size: 5vw;
-      padding-right: 20px;
-    }
-  }
-  @media (max-width:420px) {
-    .footer{
-      height: 400px;
-    }
-    #foot_1{
-      height: 170px;
-      justify-content: space-between;
-    }
-    .qlinks{
-      padding-bottom: 0;
-    }
-    .frame_spir {
-      width: 170px;
-    }
-    .Copyright {
-      padding-right: 30px;
-      font-size: 9.75px;
-    }
-    .apps img{
-      height: 16px;
-    }
-    .qlinks h1 {
-      font-size: 20px;
-      padding-right: 20px;
-    }
-    .qlinks li{
-      font-size: 12px;
-    }
-    .con{
-      font-size: 10px;
-    }
-  }
